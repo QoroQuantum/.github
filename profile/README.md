@@ -1,12 +1,33 @@
-## Hi there 👋
+# Qoro Quantum
 
-<!--
+\
+*Building the network stack for scalable, distributed quantum computing.*
 
-**Here are some ideas to get you started:**
+## 🚀 About Us
 
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
+Qoro Quantum is developing the infrastructure for distributed quantum computing. Our platform enables seamless quantum-classical hybrid computing by optimizing resource allocation and synchronizing multi-vendor quantum clusters. 
+
+## 🔬 Our Mission
+
+We aim to build a scalable, cloud-based quantum computing network that connects and orchestrates quantum and classical resources efficiently. Our work spans:
+
+- **Quantum Datacenter Networks**
+- **Quantum-Classical Hybrid Applications**
+- **Routing & Switching in Distributed Quantum Networks**
+
+## 🌍 What We Do
+
+We develop:
+
+- **Quantum Resource Management Systems** – Automating job scheduling across CPUs, GPUs, FPGAs, and QPUs.
+- **Network Control Protocols** – Synchronizing multi-vendor quantum computing clusters.
+- **Quantum Simulation Frameworks** – Simulating terrestrial and non-terrestrial quantum networks.
+
+## 🤝 Collaborate With Us
+
+We are actively looking for collaborators and partners to drive the next era of quantum computing. Whether you're a researcher, developer, or company interested in quantum networking, let’s connect!
+
+## 📫 Get in Touch
+
+- Website: [qoroquantum.de](https://www.qoroquantum.de)
+- LinkedIn: [Qoro Quantum](https://www.linkedin.com/company/qoroquantum)
