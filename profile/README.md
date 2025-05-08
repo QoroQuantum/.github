@@ -29,5 +29,6 @@ We are actively looking for collaborators and partners to drive the next era of 
 
 ## 📫 Get in Touch
 
-- Website: [qoroquantum.de](https://www.qoroquantum.de)
+- Website: [qoroquantum.net](https://www.qoroquantum.net)
+- Docs: [docs.qoroquantum.net](https://docs.qoroquantum.net)
 - LinkedIn: [Qoro Quantum](https://www.linkedin.com/company/qoro)
