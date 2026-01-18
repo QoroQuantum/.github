@@ -1,6 +1,6 @@
 # Qoro Quantum
 
-Building the network stack for scalable, distributed quantum computing.
+Building the software stack for scalable, distributed quantum computing.
 
 ## 🚀 About Us
 
