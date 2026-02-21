@@ -1,55 +1,39 @@
 # Qoro Quantum
 
-Building the software stack for scalable, distributed quantum computing.
+We build software for running hybrid workloads across distributed, heterogenous computing environments.
 
-## 🚀 About Us
+## About
 
-Qoro Quantum develops software infrastructure for running quantum workloads across heterogeneous and distributed computing environments. Our platform connects classical HPC resources, simulators, and quantum hardware into a unified execution layer, enabling practical quantum-classical hybrid computing today.
+Qoro Quantum develops infrastructure that connects classical HPC resources, simulators, and quantum hardware into a single execution layer. The goal is to make quantum-classical hybrid workflows actually usable in production — HPC centers, cloud platforms, and future quantum data centers — rather than just in research sandboxes.
 
-We focus on making quantum workflows scalable, hardware-aware, and deployable in real production environments such as HPC centers, cloud platforms, and emerging quantum data centers.
+## Projects
 
-## 🧩 Core Projects
+### [Divi](https://github.com/QoroQuantum/divi)
 
-### Divi
+Divi is Qoro's Python SDK for quantum application developers. Write your algorithm once and run it across simulators, HPC systems, or real quantum hardware. Divi handles batching, parallelization, and backend routing so you don't have to.
 
-Divi is Qoro’s Python SDK for quantum application developers. [Divi Repo](https://github.com/QoroQuantum/divi).
+Aimed at researchers, students, and teams who want to focus on the algorithm, not the plumbing.
 
-It enables users to:
-- Define quantum algorithms once and execute them across simulators, HPC systems, and quantum hardware
-- Parallelize and batch quantum workloads transparently
-- Build hybrid quantum-classical workflows without manual backend management
+### [Maestro](https://github.com/QoroQuantum/maestro)
 
-Divi is designed for researchers, students, and enterprises who want to focus on algorithms rather than infrastructure.
+Maestro is our simulation and execution layer. It wraps multiple circuit simulation backends behind a common interface and picks the right one based on circuit size, structure, and available hardware — CPU, GPU, or distributed HPC.
 
-### Maestro
+It also acts as the decision layer that feeds scheduling and orchestration in distributed quantum setups.
 
-Maestro is Qoro’s simulation and execution layer. [Maestro Repo](https://github.com/QoroQuantum/maestro).
+## What We're Working On
 
-It provides:
-- A unified interface to multiple quantum circuit simulation backends
-- Automatic backend selection based on circuit structure, scale, and available hardware
-- Support for CPU, GPU, and, soon, distributed simulation techniques used in HPC environments
-
-Maestro is used both as a high-performance simulator and as a decision layer that informs scheduling and orchestration in distributed quantum systems.
-
-## 🔬 Our Mission
-
-We aim to enable distributed quantum computing at scale by treating quantum devices, simulators, and classical resources as jointly schedulable networked components.
-
-Our work spans:
-- Quantum datacenter and cluster networking
+- Future datacenter and cluster networking
 - Quantum-classical hybrid applications
-- Resource-aware scheduling, routing, and execution
-- Integration of quantum computing into HPC and cloud environments
+- Scheduling, routing, and execution across heterogeneous resources
+- Plugging quantum into existing HPC and cloud infrastructure
 
-## 🤝 Collaborate With Us
+## Work With Us
 
-We actively collaborate with HPC centers, research institutions, and industry partners working on quantum computing, simulation, and hybrid workflows.
+We collaborate with HPC centers, research groups, and industry partners on quantum computing, simulation, and hybrid workflows. If you're exploring joint research, pilots, or want to add quantum capabilities to your existing stack, reach out.
 
-If you are interested in joint research, pilot projects, or integrating quantum capabilities into existing infrastructure, we would be happy to connect.
+## Links
 
-## 📫 Get in Touch
-
-- Website: https://www.qoroquantum.net
-- Docs: https://docs.qoroquantum.net
-- LinkedIn: https://www.linkedin.com/company/qoro
+- Website: [qoroquantum.net](https://www.qoroquantum.net)
+- Docs: [docs.qoroquantum.net](https://docs.qoroquantum.net)
+- Dash: [dash.qoroquantum.net](https://dash.qoroquantum.net)
+- LinkedIn: [Qoro Quantum](https://www.linkedin.com/company/qoro)
