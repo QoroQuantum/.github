@@ -17,7 +17,7 @@ It also acts as the decision layer that feeds scheduling and orchestration in di
 | Repository | Description |
 |---|---|
 | [maestro](https://github.com/QoroQuantum/maestro) | Core simulation engine — statevector, MPS, tensor network, Pauli propagation on CPU/GPU/HPC |
-| [maestro-examples](https://github.com/QoroQuantum/maestro-examples) | Example simulations and benchmarks written in Maestro |
+| [maestro-demos](https://github.com/QoroQuantum/maestro-examples) | Example simulations and benchmarks written in Maestro |
 | [pennylane-maestro](https://github.com/QoroQuantum/pennylane-maestro) | PennyLane device plugin — run PennyLane workflows on Maestro backends |
 | [qoro-pyscf](https://github.com/QoroQuantum/qoro-pyscf) | PySCF solver plugin — quantum chemistry via Qoro's simulation stack |
 | [maestro-qdmi-device](https://github.com/QoroQuantum/maestro-qdmi-device) | QDMI device interface for Maestro |
