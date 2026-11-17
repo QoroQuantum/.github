@@ -14,12 +14,13 @@ Maestro is our quantum circuit simulator. It puts statevector, matrix product st
 
 It models realistic noise (Pauli and coherent errors, T1/T2 relaxation, crosstalk, readout and time-correlated noise), integrates with Stim/Sinter for error-correction studies, and can be driven from C/C++ or JSON without Python. It is also the decision layer that feeds scheduling and orchestration in distributed quantum setups.
 
-**Already using Qiskit or PennyLane?** Change one import and keep your code. [`qiskit-maestro`](https://github.com/QoroQuantum/qiskit-maestro) replaces Aer's simulator and Qiskit's Sampler and Estimator, and [`pennylane-maestro`](https://github.com/QoroQuantum/pennylane-maestro) replaces `default.qubit`. On 120–200 qubit MPS workloads, `MaestroEstimator` runs up to 7× faster than Aer's `EstimatorV2` ([benchmarks](https://qoroquantum.github.io/maestro/benchmarks.html)).
+**Already using Qiskit, PennyLane, or Deltakit?** Change one import and keep your code. [`qiskit-maestro`](https://github.com/QoroQuantum/qiskit-maestro) replaces Aer's simulator and Qiskit's Sampler and Estimator, [`pennylane-maestro`](https://github.com/QoroQuantum/pennylane-maestro) replaces `default.qubit`, and [`deltakit-maestro`](https://github.com/QoroQuantum/deltakit-maestro) runs Riverlane Deltakit QEC circuits on Maestro (including coherent noise on MPS). On 120–200 qubit MPS workloads, `MaestroEstimator` runs up to 7× faster than Aer's `EstimatorV2` ([benchmarks](https://qoroquantum.github.io/maestro/benchmarks.html)).
 
 ```bash
 pip install qoro-maestro        # Maestro
 pip install qiskit-maestro      # Qiskit: MaestroBackend, MaestroSampler, MaestroEstimator
 pip install pennylane-maestro   # PennyLane: the maestro.qubit device
+pip install deltakit-maestro    # Deltakit: MaestroBackend for QEC circuits
 ```
 
 GPU backends come as a separate plugin, available on the Qoro cloud (with free starter credits), under a free academic licence, or under an enterprise site licence. See [Get GPU access](https://qoroquantum.github.io/maestro/getting-started/gpu-access.html).
@@ -29,8 +30,9 @@ GPU backends come as a separate plugin, available on the Qoro cloud (with free s
 | [maestro](https://github.com/QoroQuantum/maestro) | Core simulator: statevector, MPS, stabilizer, density matrix, tensor network, Pauli propagation and more, on CPU, GPU and MPI clusters ([docs](https://qoroquantum.github.io/maestro/)) |
 | [qiskit-maestro](https://github.com/QoroQuantum/qiskit-maestro) | Qiskit provider: `MaestroBackend`, `MaestroSampler` and `MaestroEstimator`, drop-in replacements for Aer and Qiskit's reference primitives |
 | [pennylane-maestro](https://github.com/QoroQuantum/pennylane-maestro) | PennyLane device `maestro.qubit`: a drop-in replacement for `default.qubit`, with adjoint gradients and MPS simulation of 1000+ qubit circuits |
-| [qoro-pyscf](https://github.com/QoroQuantum/qoro-pyscf) | PySCF solver plugin — quantum chemistry via Qoro's simulation stack |
+| [deltakit-maestro](https://github.com/QoroQuantum/deltakit-maestro) | Riverlane Deltakit backend: `MaestroBackend` for QEC circuits, with Pauli-frame stabilizer sampling, T1 decay, coherent noise on MPS, and Sinter integration ([docs](https://qoroquantum.github.io/deltakit-maestro/)) |
 | [maestro-demos](https://github.com/QoroQuantum/maestro-demos) | Example simulations written in Maestro |
+| [qoro-pyscf](https://github.com/QoroQuantum/qoro-pyscf) | PySCF solver plugin — quantum chemistry via Qoro's simulation stack |
 
 Maestro's CPU engine, [QCSim](https://github.com/QoroQuantum/QCSim), and its [Qiskit Aer](https://github.com/QoroQuantum/qiskit-aer) and [QuEST](https://github.com/QoroQuantum/maestro-quest-interface) backends are developed in their own repositories.
 
